@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey5"
+    tools:context="ru.evotorapp.DiscountFragment">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_marginTop="@dimen/dimen10" />
+
+        <TextView
+            android:id="@+id/tvDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font40"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen8" />
+
+    </LinearLayout>
+
+    <ru.evotorapp.NumPadView
+        android:id="@+id/num_pad_view"
+        android:layout_below="@id/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen8"
+        android:layout_marginBottom="@dimen/dimen8"
+        app:numPadMode="Number"
+        app:numPadFirstSymbol="0"
+        app:numPadButtonSize="100dp"
+        app:numPadTextColor="@color/white"
+        app:numPadTextSize="@dimen/font32" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelApp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen16"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnCreateApp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen16"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:text="@string/apply_discount" />
+
+    </LinearLayout>
+
+</RelativeLayout>

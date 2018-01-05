@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Evotor plugin</string>
+    <string name="button_main_page">Evotor plugin</string>
+    <string name="button_pay_page">Рассрочка</string>
+    <string name="ok">ОК</string>
+    <string name="back">Назад</string>
+    <string name="connection_failed">Ошибка соединения</string>
+    <string name="connection_not_available">Не удалось подключиться к серверу. Проверьте подключение к интернету.</string>
+    <string name="title_activity_request">Заявка</string>
+    <string name="title_activity_response">Evotor plugin</string>
+
+    <string name="send_button_text">Отправить заявку</string>
+
+    <string name="menu_item_settings">Настройки</string>
+    <string name="menu_item_exit">Выйти</string>
+
+    <string name="not_registered">Отправить заявку</string>
+    <string name="register_message">Для работы с системой необходимо зарегистрировать кассу</string>
+    <string name="api_key">Ключ АПИ</string>
+    <string name="enter_api_key">Введите ключ апи здесь</string>
+    <string name="save_button_text">Сохранить</string>
+    <string name="application_header">Заявка</string>
+    <string name="add_discount_button_text">Добавить скидку</string>
+    <string name="create_application_button_text">Сформировать заявку</string>
+    <string name="cancel_application_button_text">Отменить заявку</string>
+    <string name="remove">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="send_app">Отправить</string>
+
+    <string name="default_text">Введите номер телефона клиента</string>
+
+    <!-- MainFragment -->
+    <string name="main_fragment_title">Заявка</string>
+    <string name="count_basket_items">Количество позиций в чеке</string>
+    <string name="total_amount">Итого:</string>
+    <string name="amount_with_discount">Итого с учетом скидки:</string>
+
+    <!-- DiscountFragment -->
+    <string name="common_discount_title">Установить общую скидку, % </string>
+    <string name="common_discount_subtitle">Общая скидка, % </string>
+    <string name="apply_discount">Применить</string>
+
+    <!-- PhoneFragment -->
+    <string name="phone_fragment_title">Введите номер телефона клиента</string>
+
+
+    <!-- CheckoutFragment -->
+    <string name="checkout_fragment_title">Параметры скидки</string>
+    <string name="change_discount_button_text">Изменить</string>
+    <string name="discount_size">Размер скидки %</string>
+    <string name="common_discount">Единая скидка на все позиции</string>
+
+    <!-- ProductListFragment -->
+    <string name="product_list_fragment_title">Параметры скидки</string>
+
+    <!-- ConfirmationFragment -->
+    <string name="confirmation_fragment_title">Заявка отправлена</string>
+    <string name="app_send">Заявка\n успешно отправлена</string>
+    <string name="receipt_postponed">Чек по данной заявке отложен на 30 дней.</string>
+    <string name="track_status">Отследить статус заявки и пробить чек вы можете через приложение на главном экране кассы.</string>
+
+    <!-- SlipFragment -->
+    <string name="slip_fragment_title">Кассовый чек</string>
+    <string name="slip_content">Состав чека:</string>
+    <string name="remove_slip_title">Удаление заявки</string>
+    <string name="are_you_really_want_to_delete_this_app">Вы действительно желаете удалить эту заявку?</string>
+    <string name="process_slip">Провести</string>
+    <string name="print_is_over">Печать завершена</string>
+
+    <!-- CancelFragment -->
+    <string name="cancel_fragment_title">Удаление заявки</string>
+    <string name="cancel_header">Удалить заявку?</string>
+    <string name="cancel_text">Вы действительно собираетесь удалить заявку на приобретение товара?</string>
+    <string name="remove_application_button_text">Удалить заявку</string>
+    <string name="cancel_action_button_text">Отмена</string>
+
+    <!-- StartFragment -->
+    <string name="start_fragment_title">Start Fragment</string>
+
+    <!-- Menu -->
+    <string name="menu_show">Посмотреть</string>
+    <string name="menu_delete">Удалить</string>
+
+    <!-- SlipListFragment -->
+    <string name="slip_list_fragment_title">Список заявок</string>
+
+    <!-- NoSlipFragment -->
+    <string name="no_slip_fragment_title">Нет заявок</string>
+    <string name="no_slip_text1">Ни одной заявки не зарегистрировано</string>
+    <string name="no_slip_text2">Для регистрации заявки \n добавьте товары в чек и в разделе "Оплата" \n выберите "Рассрочка"</string>
+
+</resources>

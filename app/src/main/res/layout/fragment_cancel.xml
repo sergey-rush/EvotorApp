@@ -1,0 +1,71 @@
+<ru.evotorapp.FractionalLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey5"
+    android:padding="@dimen/dimen16"
+    tools:context="ru.evotorapp.CancelFragment">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font24"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen16"
+        android:layout_marginBottom="@dimen/dimen16"
+        android:textAlignment="center"
+        android:text="@string/cancel_header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen16"
+        android:layout_marginBottom="@dimen/dimen16"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font18"
+        android:text="@string/cancel_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRemoveApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_marginBottom="@dimen/dimen8"
+            android:padding="@dimen/dimen16"
+            android:textColor="@color/white"
+            android:background="@drawable/button_oval_red"
+            android:text="@string/remove_application_button_text" />
+
+        <Button
+            android:id="@+id/btnCancelAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_marginBottom="@dimen/dimen8"
+            android:padding="@dimen/dimen16"
+            android:textColor="@color/black"
+            android:background="@drawable/button_oval_white"
+            android:text="@string/cancel_action_button_text" />
+
+    </LinearLayout>
+
+</ru.evotorapp.FractionalLinearLayout>

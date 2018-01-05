@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen8"
+    android:background="@color/grey5"
+    tools:context="ru.evotorapp.CheckoutFragment">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey5">
+
+        <CheckBox
+            android:id="@+id/cbDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen16"
+            android:paddingLeft="@dimen/dimen12"
+            android:textColor="@color/white"
+            android:button="@drawable/checkbox_selector"
+            android:text="@string/common_discount" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/discount_layout"
+        android:layout_below="@id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen72"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="@dimen/dimen72"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen16"
+                android:layout_marginBottom="@dimen/dimen0"
+                android:text="@string/discount_size" />
+
+            <TextView
+                android:id="@+id/tvDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen16"
+                android:textSize="@dimen/font32"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="@dimen/dimen72"
+            android:padding="@dimen/dimen16"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:text="@string/change_discount_button_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/discount_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen16"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font16"
+        android:textColor="@color/white"
+        android:text="@string/total_amount" />
+
+    <TextView
+        android:id="@+id/tvTotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingBottom="@dimen/dimen16"
+        android:textSize="@dimen/font40" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font16"
+        android:textColor="@color/white"
+        android:text="@string/amount_with_discount" />
+
+    <TextView
+        android:id="@+id/tvAmountWithDiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingBottom="@dimen/dimen16"
+        android:textSize="@dimen/font40" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelApp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen16"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnCreateApp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen16"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:text="@string/send_app" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumPadView">
+        <attr name="numPadTextColor" format="color" />
+        <attr name="numPadBackgroundColor" format="color" />
+        <attr name="numPadTextSize" format="dimension" />
+        <attr name="numPadButtonSize" format="dimension" />
+        <attr name="numPadVerticalSpacing" format="dimension" />
+        <attr name="numPadHorizontalSpacing" format="dimension" />
+        <attr name="numPadMode" format="string" />
+        <attr name="numPadFirstSymbol" format="string" />
+    </declare-styleable>
+</resources>

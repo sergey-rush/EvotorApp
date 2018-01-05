@@ -1,0 +1,4 @@
+<resources>
+    <item name="start_position" type="dimen" format="float">0.0</item>
+    <item name="end_position" type="dimen" format="float">0.6</item>
+</resources>

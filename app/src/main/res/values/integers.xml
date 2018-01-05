@@ -1,0 +1,4 @@
+<resources>
+    <integer name="delay_animation">200</integer>
+    <integer name="duration_animation">400</integer>
+</resources>
